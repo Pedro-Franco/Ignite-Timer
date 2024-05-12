@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Pedro-Franco.github.io/Ignite-Timer",
   "name": "ignite-timer",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +9,9 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "lint-project": "eslint src --ext .ts,.tsx"
+    "lint-project": "eslint src --ext .ts,.tsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
@@ -33,6 +36,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "gh-pages": "^6.1.1",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   }
