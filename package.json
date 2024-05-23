@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Pedro-Franco.github.io/Ignite-Timer",
+  "homepage": "https://Pedro-Franco.github.io/Ignite-Timer/home",
   "name": "ignite-timer",
   "private": true,
   "version": "0.0.0",
@@ -12,7 +12,7 @@
     "lint-project": "eslint src --ext .ts,.tsx",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-  },
+  }, 
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
     "date-fns": "^3.6.0",
